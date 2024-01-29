@@ -17,6 +17,7 @@
 # Release name
 PRODUCT_RELEASE_NAME := guacamole
 
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, build/target/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
