@@ -35,6 +35,9 @@ export FOX_USE_SPECIFIC_MAGISK_ZIP=~/device/oneplus/guacamole/Magisk/Magisk-26.4
 
 export OF_DONT_PATCH_ON_FRESH_INSTALLATION=1
 
+# Skip mounting storage
+export OF_SKIP_FBE_DECRYPTION_SDKVERSION=34
+
 # We have a/b partitions
 export FOX_AB_DEVICE=1
 
